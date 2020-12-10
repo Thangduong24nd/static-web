@@ -2,24 +2,30 @@
     margin: 0;
     box-sizing: border-box;
     color: #666;
+    font-family: Didot;
 }
-
+body{
+   background-color: #dcf8ff;
+   
+}
 
 /* Header/logo tiêu đề */
 
 header {
     padding: 5px;
     text-align: center;
-    background: #1abc9c;
+    background: #dcf8ff;
     color: white;
     height: 120px;
+    padding-top: 25px;
+    
 }
 
 
 /* Tăng kích thước font chữ cho header */
 
 header h1 {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 header h1,
@@ -32,13 +38,14 @@ section {
     padding: 20px;
 }
 
-ul {
+ul  {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
+    background-color: #98d6e6;
+    font-size: 25px;
 }
 
 li {
@@ -57,7 +64,7 @@ li a,
 li a:hover:not(.active),
 .dropdown:hover .dropbtn {
     color: white;
-    background-color: #4CAF50;
+    background-color: #42c7e8;
 }
 
 li.dropdown {
@@ -99,3 +106,44 @@ li.dropdown {
 .hideable-section:first-of-type {
     display: block;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+   
+    padding: 10px;
+  }
+  .grid-item {
+    padding: 20px;
+    font-size: 20px;
+   
+   }
+footer{
+    position: sticky;
+    top: 100%;
+    background-color:  #98d6e6;
+    max-width: 100%;
+    
+   
+    padding-top: 20px;
+    text-align: center;
+}
+@media screen and (max-width:800px){
+    video{
+        width: 300px;
+        height: 200px;
+        position: relative;
+        left: 20%;
+        right: 25%;
+    }
+}
+video{
+    position: relative;
+    left: 25%;
+    right: 25%;
+}
+  
+    
+   
+   
+
+    
